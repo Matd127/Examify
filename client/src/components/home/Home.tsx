@@ -8,7 +8,7 @@ import welcome from "../../assets/online-test.png";
 const Home: FC = () => {
   return (
     <section className="home" id="home">
-      <div className="container w-75 h-100 d-flex text-light justify-content-around align-items-center py-5">
+      <div className="container w-75 h-100 d-flex text-light justify-content-around align-items-center py-5 ">
         <Row className="align-items-center py-5">
           <Col md={12} lg={6} className="px-5">
             <h1>Welcome to Examify!</h1>
