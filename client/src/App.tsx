@@ -3,6 +3,7 @@ import Home from './components/home/Home';
 import Navigation from './components/navigation/Navigation';
 import { FC } from 'react';
 import AboutUs from './components/aboutus/AboutUs';
+import Storage from './components/storage/Storage';
 
 
 const App : FC = () => {
@@ -11,6 +12,7 @@ const App : FC = () => {
       <Navigation/>
       <Home/>
       <AboutUs/>
+      <Storage/>
     </>
   );
 }
