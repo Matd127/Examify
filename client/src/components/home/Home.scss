@@ -1,6 +1,5 @@
 .home {
   position: relative;
-
   background: rgb(35, 58, 175);
   background: linear-gradient(
     163deg,
@@ -10,7 +9,6 @@
   background-size: cover;
   background-position: center;
   z-index: 0;
-  // min-height: 50rem;
 
   img{
     width: 80%;
@@ -21,6 +19,15 @@
   }
 }
 
+.welcome-title{
+  font-size: 3.8rem;
+}
+
+.welcome-button{
+  font-size: 1.8rem !important; 
+}
+
 .welcome-text {
-    font-size: 1.8rem !important; 
+    font-size: 1.8rem; 
+    color: #ffffffbd;
 }

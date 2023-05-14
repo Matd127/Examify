@@ -5,15 +5,15 @@ import './Storage.scss'
 
 const Storage: FC = () => {
   return (
-    <section className="mt-3 bg-light">
+    <section id="storage" className="storage mt-3">
       <div className="container w-75">
         <Row className="py-5">
-          <Col md={6} className="d-flex flex-column justify-content-center">
+          <Col md={6} className="d-flex flex-column align-items-center justify-content-center">
             <img src={server} className="cloud p-3" alt="server"></img>
           </Col>
           <Col className="d-flex flex-column justify-content-center">
             <h2 className="storage-title py-2">Your data is stored securely on our servers</h2>
-            <p className="storage-info py-2">
+            <p className="storage-info py-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
               vero pariatur eos veniam laudantium qui placeat eius reprehenderit
               facilis. Fugiat eius accusamus esse animi, dolor repudiandae
