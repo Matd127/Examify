@@ -1,0 +1,23 @@
+.methods {
+    ul {
+        list-style-type: none;
+        font-size: 2rem;
+        padding-left: 0px;
+    }
+    li {
+        color: rgb(105, 112, 122);
+        &:hover{
+            transition: 0.5s;
+            font-weight: 500;
+            color: #000;
+            padding-left: 10px;
+        }
+        &::before {
+            content: "\00BB";
+            color: rgb(1, 67, 180) !important;
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-right: 5px;
+        }
+    }
+}

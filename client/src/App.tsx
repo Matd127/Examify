@@ -5,6 +5,7 @@ import { FC } from 'react';
 import AboutUs from './components/aboutus/AboutUs';
 import Storage from './components/storage/Storage';
 import Usage from './components/usage/Usage';
+import Methods from './components/methods/Methods';
 
 
 const App : FC = () => {
@@ -15,6 +16,7 @@ const App : FC = () => {
       <AboutUs/>
       <Storage/>
       <Usage/>
+      <Methods/>
     </>
   );
 }

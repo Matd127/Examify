@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import "./Home.scss";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import welcome from "../../assets/online-test.png";
+import writing from '../../assets/writing-exam.png';
 
 const Home: FC = () => {
   return (
@@ -25,8 +25,8 @@ const Home: FC = () => {
             </p>
           </Col>
           <Col md={12} lg={6}>
-            <div className="px-5 d-flex flex-center justify-content-center">
-              <img src={welcome} alt="welcome-img"></img>
+            <div className="d-flex flex-center justify-content-center">
+              <img src={writing} className="w-100" alt="welcome-img"></img>
             </div>
           </Col>
         </Row>

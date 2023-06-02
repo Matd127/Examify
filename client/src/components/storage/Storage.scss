@@ -9,9 +9,34 @@ $section-color: rgb(239, 243, 249);
 
   .storage-info {
     font-size: 1.8rem;
+    color: rgb(105, 112, 122);
   }
 
   .cloud {
     width: 50%;
+  }
+
+  .animate {
+    animation: slideIn 1s forwards;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(+100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
