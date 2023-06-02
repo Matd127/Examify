@@ -18,7 +18,7 @@ const Usage: FC = () => {
       </Row>
       <Row>
         <Col className="d-flex justify-content-center align-items-center py-5">
-          <ButtonGroup aria-label="Basic example" className="w-50">
+          <ButtonGroup aria-label="Basic example" className="d-flex flex-column flex-sm-row w-100">
             <Button
               className={`${active === "schools" ? "active" : ""} p-3 option`}
               variant="outline-primary"

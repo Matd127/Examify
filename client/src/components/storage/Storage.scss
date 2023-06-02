@@ -1,6 +1,7 @@
 $section-color: rgb(239, 243, 249);
 
 .storage {
+  overflow: hidden;
   background-color: $section-color !important;
 
   .storage-title {
@@ -14,6 +15,13 @@ $section-color: rgb(239, 243, 249);
 
   .cloud {
     width: 50%;
+
+    @media screen and (max-width: 1200px) {
+      width: 75%;
+    }
+    @media screen and (max-width: 992px) {
+      width: 100%;
+    }
   }
 
   .animate {

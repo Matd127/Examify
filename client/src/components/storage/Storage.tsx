@@ -1,19 +1,17 @@
-import { FC, useEffect, useRef, useState } from "react";
-import { InView, useInView } from "react-intersection-observer";
+import { FC, useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
 import { Col, Row } from "react-bootstrap";
 import server from "../../assets/cloud-server.png";
 import "./Storage.scss";
 
-
 const Storage: FC = () => {
   const [animate, setAnimate] = useState(false)
-  const {ref : myRef, inView: myElementIsVisible, entry} = useInView({
+  const { ref : myRef, inView: myElementIsVisible } = useInView({
     threshold: 0.5
   })
   
   useEffect(() => {
     if (myElementIsVisible) {
-      console.log(animate)
       setAnimate(true)
     }
   }, [myElementIsVisible, animate]);
@@ -21,7 +19,7 @@ const Storage: FC = () => {
   return (
     <section id="storage" className="storage mt-3">
       <div className={`container w-75 ${animate ? 'animate' : 'opacity-0'}`} ref={myRef} >
-        <Row className="py-5">
+        <Row className="py-5 ">
           <Col
             md={6}
             className="d-flex flex-column align-items-center justify-content-center"
