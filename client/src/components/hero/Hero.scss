@@ -10,24 +10,22 @@
   background-position: center;
   z-index: 0;
 
-  img{
-    // width: 80%;
-
+  img {
     @media screen and (max-width: 922px) {
       width: 70%;
     }
   }
 }
 
-.welcome-title{
+.welcome-title {
   font-size: 3.8rem;
 }
 
-.welcome-button{
-  font-size: 1.8rem !important; 
+.welcome-button {
+  font-size: 1.8rem !important;
 }
 
 .welcome-text {
-    font-size: 1.8rem; 
-    color: #ffffffbd;
+  font-size: 1.8rem;
+  color: #ffffffbd;
 }

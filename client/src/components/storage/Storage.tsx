@@ -5,20 +5,23 @@ import server from "../../assets/cloud-server.png";
 import "./Storage.scss";
 
 const Storage: FC = () => {
-  const [animate, setAnimate] = useState(false)
-  const { ref : myRef, inView: myElementIsVisible } = useInView({
-    threshold: 0.5
-  })
-  
+  const [animate, setAnimate] = useState(false);
+  const { ref: myRef, inView: myElementIsVisible } = useInView({
+    threshold: 0.5,
+  });
+
   useEffect(() => {
     if (myElementIsVisible) {
-      setAnimate(true)
+      setAnimate(true);
     }
   }, [myElementIsVisible, animate]);
 
   return (
     <section id="storage" className="storage mt-3">
-      <div className={`container w-75 ${animate ? 'animate' : 'opacity-0'}`} ref={myRef} >
+      <div
+        className={`container w-75 ${animate ? "animate" : "opacity-0"}`}
+        ref={myRef}
+      >
         <Row className="py-5 ">
           <Col
             md={6}
@@ -27,7 +30,7 @@ const Storage: FC = () => {
             <img src={server} className="cloud p-3" alt="server" />
           </Col>
           <Col md={6} className="d-flex flex-column justify-content-center">
-          <h2 className="storage-title py-2">
+            <h2 className="storage-title py-2">
               Your data is stored securely on our servers
             </h2>
             <p className="storage-info py-3">
