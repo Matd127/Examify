@@ -4,7 +4,7 @@
 
 @import "./base/base.scss";
 
-@import "./vendors/bootstrap.scss"
+@import "./layouts/navigation.scss";
+@import "./layouts/hero.scss";
 
-
-
+@import "./vendors/bootstrap.scss";
