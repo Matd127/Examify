@@ -9,10 +9,11 @@ const Hero: FC = () => {
           <div className="col-md-12 col-lg-6 px-5">
             <h1 className="hero__title">Welcome to Examify!</h1>
             <p className="py-3 text-align-left hero__text">
-              The questions on this exam page are carefully crafted to test your
-              comprehension and competency in the subject matter, and may range
-              from multiple choice, true/false, short answer, essay, or other
-              formats.
+              Are you tired of traditional, time-consuming testing methods? Look
+              no further! Examify is here to revolutionize your testing
+              experience. Whether you're an educator, a trainer, or a business
+              professional, our cutting-edge online testing platform simplifies
+              the entire process.
             </p>
             <p>
               <button className="btn btn-success hero__button text-light px-5">

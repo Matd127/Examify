@@ -1,6 +1,5 @@
 import { FC } from "react";
 import { AiFillDollarCircle } from "react-icons/ai";
-import "./AboutUs.scss";
 import { BsBrowserChrome } from "react-icons/bs";
 import { BsFillEmojiSmileFill } from "react-icons/bs";
 import { BsFillWrenchAdjustableCircleFill } from "react-icons/bs";
@@ -38,14 +37,19 @@ const infoList = [
 
 const AboutUs: FC = () => {
   return (
-    <section className="aboutus container w-75 py-5" id="aboutus">
+    <section className="container w-75 py-5 my-5" id="aboutus">
       <div className="row">
         {infoList.map((info) => (
           <div
             key={info.id}
-            className="col-xs-12 col-md-6 col-lg-3 text-center"
+            className="about-card col-xs-12 col-md-6 col-lg-3 text-center py-md-0 py-3"
           >
-            <svg className="icon" width="60" height="60" viewBox="0 0 60 60">
+            <svg
+              className="about-card__icon"
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+            >
               <defs>
                 <linearGradient id="grad" x1="25%" y1="0%" x2="100%" y2="75%">
                   <stop offset="09%" stopColor="rgba(35, 58, 175, 1)" />
@@ -54,9 +58,9 @@ const AboutUs: FC = () => {
               </defs>
               {info.icon}
             </svg>
-            <h3 className="m-3 about-title">{info.title}</h3>
+            <h3 className="m-3 about-card__title">{info.title}</h3>
             <div className="px-5">
-              <p className="about-text">{info.description}</p>
+              <p className="about-card__text">{info.description}</p>
             </div>
           </div>
         ))}

@@ -1,4 +1,3 @@
-import "./App.css";
 import Hero from "./components/hero/Hero";
 import Navigation from "./components/navigation/Navigation";
 import { FC } from "react";
