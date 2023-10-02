@@ -4,19 +4,19 @@ import server from "../../assets/cloud-server.png";
 
 const Storage: FC = () => {
   const [animate, setAnimate] = useState(false);
-  const { ref: myRef, inView: myElementIsVisible } = useInView({
+  const { ref: storageRef, inView: storageIsVisible } = useInView({
     threshold: 0.5,
   });
 
   useEffect(() => {
-    if (myElementIsVisible) {
+    if (storageIsVisible) {
       setAnimate(true);
     }
-  }, [myElementIsVisible, animate]);
+  }, [storageIsVisible, animate]);
 
   return (
     <section id="storage" className="section-storage mt-3">
-      <div className="container w-75" ref={myRef}>
+      <div className="container w-75" ref={storageRef}>
         <div
           className={`row section-storage--box py-5 ${
             animate ? "animated" : ""

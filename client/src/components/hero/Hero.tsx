@@ -1,11 +1,29 @@
-import { FC } from "react";
+import { FC, useState, useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 import writing from "../../assets/writing-exam.png";
 
 const Hero: FC = () => {
+  const [animate, setAnimate] = useState(false);
+  const { ref: heroRef, inView: heroRefIsVisible } = useInView({
+    threshold: 0.5,
+    triggerOnce: true,
+  });
+
+  useEffect(() => {
+    if (heroRefIsVisible) {
+      setAnimate(true);
+    }
+  }, [heroRefIsVisible, animate]);
+
   return (
     <header className="hero" id="hero">
-      <div className="container w-75 h-100 d-flex text-light justify-content-around align-items-center py-5 ">
-        <div className="row align-items-center py-5">
+      <div
+        className="container w-75 h-100 d-flex text-light justify-content-around align-items-center py-5"
+        ref={heroRef}
+      >
+        <div
+          className={`row align-items-center py-5 ${animate ? "animated" : ""}`}
+        >
           <div className="col-md-12 col-lg-6 px-5">
             <h1 className="hero__title">Welcome to Examify!</h1>
             <p className="py-3 text-align-left hero__text">

@@ -27,4 +27,8 @@
   &__button {
     font-size: 1.8rem !important;
   }
+
+  .animated {
+    animation: moveToUp 0.5s forwards;
+  }
 }
