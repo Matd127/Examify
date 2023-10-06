@@ -4,9 +4,11 @@
 
 @import "./base/base";
 @import "./base/animations";
+@import "./base/typography";
 
 @import "./components/about-card";
 @import "./components/usage-card";
+@import "./components/methods-card";
 
 @import "./layouts/navigation";
 @import "./layouts/hero";

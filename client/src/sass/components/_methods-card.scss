@@ -1,0 +1,15 @@
+.methods-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid rgba(221, 225, 230, 1);
+
+  &__title {
+    color: #21272a;
+    margin: 0;
+  }
+
+  &__icon {
+    margin: 0 1rem;
+  }
+}

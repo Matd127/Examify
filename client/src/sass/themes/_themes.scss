@@ -1,40 +1,39 @@
 .h2 {
-    font-size: $h2-font-size !important;
+  font-size: $h2-font-size !important;
+}
+
+.btn-primary {
+  background-color: $color-primary-light !important;
+  border-color: $color-primary-light !important;
+  font-size: 1.8rem !important;
+  font-weight: 500 !important;
+
+  &:hover {
+    background-color: $color-primary-dark !important;
+    border-color: $color-primary-dark !important;
   }
-  
-  .btn-primary {
-    background-color: $color-primary-light !important;
-    border-color: $color-primary-light !important;
-    font-size: 1.8rem !important;
-    font-weight: 500 !important;
-  
-    &:hover {
-      background-color: $color-primary-dark !important;
-      border-color: $color-primary-dark !important;
-    }
+}
+
+.navbar-brand {
+  font-size: 2.8rem !important;
+  color: rgb(104, 114, 129) !important;
+  font-weight: 700;
+
+  &:hover {
+    transition: 0.5s;
+    color: rgb(1, 67, 180) !important;
+    scale: 1.1;
   }
-  
-  .navbar-brand {
-    font-size: 2.8rem !important;
-    color: rgb(104, 114, 129) !important;
-    font-weight: 700;
-  
-    &:hover {
-      transition: 0.5s;
-      color: rgb(1, 67, 180) !important;
-      scale: 1.1;
-    }
+}
+
+.nav-link {
+  font-size: 1.8rem !important;
+  font-weight: 500 !important;
+  border-bottom: 1px solid transparent;
+
+  &:hover {
+    transition: 0.3s ease-in-out;
+    color: rgb(1, 67, 180) !important;
+    scale: 1.2;
   }
-  
-  .nav-link {
-    font-size: 1.8rem !important;
-    font-weight: 500 !important;
-    border-bottom: 1px solid transparent;
-  
-    &:hover {
-      transition: 0.3s ease-in-out;
-      color: rgb(1, 67, 180) !important;
-      scale: 1.2;
-    }
-  }
-  
+}

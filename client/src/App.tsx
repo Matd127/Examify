@@ -5,6 +5,7 @@ import AboutUs from "./components/aboutus/AboutUs";
 import Storage from "./components/storage/Storage";
 import Usage from "./components/usage/Usage";
 import Methods from "./components/methods/Methods";
+import HowItWorks from "./components/howItWorks/HowItWorks";
 
 const App: FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: FC = () => {
       <AboutUs />
       <Storage />
       <Usage />
+      <HowItWorks />
       <Methods />
     </>
   );
