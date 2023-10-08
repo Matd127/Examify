@@ -18,7 +18,7 @@ const Hero: FC = () => {
   return (
     <header className="hero" id="hero">
       <div
-        className="container w-75 h-100 d-flex text-light justify-content-around align-items-center py-5"
+        className="container h-100 d-flex text-light justify-content-around align-items-center py-5"
         ref={heroRef}
       >
         <div

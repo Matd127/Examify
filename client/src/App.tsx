@@ -6,6 +6,9 @@ import Storage from "./components/storage/Storage";
 import Usage from "./components/usage/Usage";
 import Methods from "./components/methods/Methods";
 import HowItWorks from "./components/howItWorks/HowItWorks";
+import Faq from "./components/faq/Faq";
+import Start from "./components/start/Start";
+import Footer from "./components/footer/Footer";
 
 const App: FC = () => {
   return (
@@ -17,6 +20,9 @@ const App: FC = () => {
       <Usage />
       <HowItWorks />
       <Methods />
+      <Faq />
+      <Start />
+      <Footer />
     </>
   );
 };

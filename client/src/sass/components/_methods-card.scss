@@ -3,10 +3,20 @@
   align-items: center;
   padding: 1rem;
   border: 1px solid rgba(221, 225, 230, 1);
+  color: #21272a;
+  transition: all .4s;
+  
+  &:hover {
+    color: #fff;
+    background-color: #21272a;
+    border-color: #21272a;
+    cursor: pointer;
+  }
 
   &__title {
-    color: #21272a;
+    color: inherit;
     margin: 0;
+    font-size: 1.8rem;
   }
 
   &__icon {

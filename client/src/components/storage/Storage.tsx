@@ -15,7 +15,7 @@ const Storage: FC = () => {
   }, [storageIsVisible, animate]);
 
   return (
-    <section id="storage" className="section-storage mt-3">
+    <section id="storage" className="section-storage bg-light mt-3">
       <div className="container w-75" ref={storageRef}>
         <div
           className={`row section-storage--box py-5 ${

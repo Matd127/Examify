@@ -1,12 +1,14 @@
 import { FC } from "react";
-import { BsFill1CircleFill } from "react-icons/bs";
-import { BsFill2CircleFill } from "react-icons/bs";
-import { BsFill3CircleFill } from "react-icons/bs";
+import {
+  BsFill1CircleFill,
+  BsFill2CircleFill,
+  BsFill3CircleFill,
+} from "react-icons/bs";
 
 const HowItWorks: FC = () => {
   return (
     <section id="how-it-works" className="bg-light py-5">
-      <div className="container w-75">
+      <div className="container ">
         <div className="row py-5">
           <div className="col-md-3">
             <h3 className="h3">How it works?</h3>
@@ -18,7 +20,7 @@ const HowItWorks: FC = () => {
           </div>
           <div className="col-md-3 px-md-5">
             <div className="text-secondary py-3">
-              <BsFill1CircleFill size={30} />
+              <BsFill1CircleFill size={30} className="text-primary" />
             </div>
             <h3>Creating Tests</h3>
             <p>
@@ -29,7 +31,7 @@ const HowItWorks: FC = () => {
           </div>
           <div className="col-md-3 px-md-5">
             <div className="text-secondary py-3">
-              <BsFill2CircleFill size={30} />
+              <BsFill2CircleFill size={30} className="text-primary" />
             </div>
             <h3>Conducting Tests</h3>
             <p>
@@ -40,7 +42,7 @@ const HowItWorks: FC = () => {
           </div>
           <div className="col-md-3 px-md-5">
             <div className="text-secondary py-3">
-              <BsFill3CircleFill size={30} />
+              <BsFill3CircleFill size={30} className="text-primary" />
             </div>
             <h3>Analyzing Results and Reporting</h3>
             <p>
