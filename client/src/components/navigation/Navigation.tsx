@@ -4,7 +4,7 @@ const Navigation: FC = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
       <div className="container py-2 ">
         <a className="navbar-brand" href="#home">
           Examify
@@ -25,7 +25,7 @@ const Navigation: FC = () => {
           className={`collapse navbar-collapse ${isActive && "show"}`}
           id="navbarSupportedContent"
         >
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
             <li className="nav-item">
               <a className="nav-link px-3" href="#home">
                 Home
