@@ -1,30 +1,29 @@
-import Hero from "./components/hero/Hero";
-import Navigation from "./components/navigation/Navigation";
 import { FC } from "react";
-import AboutUs from "./components/aboutus/AboutUs";
-import Storage from "./components/storage/Storage";
-import Usage from "./components/usage/Usage";
-import Methods from "./components/methods/Methods";
-import HowItWorks from "./components/howItWorks/HowItWorks";
-import Faq from "./components/faq/Faq";
-import Start from "./components/start/Start";
-import Footer from "./components/footer/Footer";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import Auth from "./pages/Auth";
+import Home from "./pages/Home";
+import RootLayout from "./pages/Root";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+    ],
+  },
+  {
+    path: "/auth",
+    element: <Auth />,
+  },
+]);
 
 const App: FC = () => {
-  return (
-    <>
-      <Navigation />
-      <Hero />
-      <AboutUs />
-      <Storage />
-      <Usage />
-      <HowItWorks />
-      <Methods />
-      <Faq />
-      <Start />
-      <Footer />
-    </>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 };
 
 export default App;

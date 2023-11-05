@@ -1,4 +1,5 @@
 import { FC, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navigation: FC = () => {
   const [isActive, setIsActive] = useState(false);
@@ -27,22 +28,27 @@ const Navigation: FC = () => {
         >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
             <li className="nav-item">
-              <a className="nav-link px-3" href="#home">
+              <Link to="/" className="nav-link px-3">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="#home">
+              <Link to="/contact" className="nav-link px-3">
                 Contact
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="#home">
+              <Link to="/about" className="nav-link px-3">
                 About us
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <button className="btn btn-primary px-5 mx-lg-5">Sign in</button>
+              <Link
+                to="/auth"
+                className="btn btn-primary text-light px-5 mx-lg-5"
+              >
+                Sign in
+              </Link>
             </li>
           </ul>
         </div>
