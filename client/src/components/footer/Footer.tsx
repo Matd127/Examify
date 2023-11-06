@@ -32,7 +32,7 @@ const Footer: FC = () => {
           </div>
           <div className="col-md-3 d-flex align-items-center justify-content-end">
             <BsGithub size={30} />
-            <BsLinkedin size={30} className="ms-3"/>
+            <BsLinkedin size={30} className="ms-3" />
           </div>
         </div>
 

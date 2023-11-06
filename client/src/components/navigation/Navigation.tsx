@@ -7,9 +7,9 @@ const Navigation: FC = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
       <div className="container py-2 ">
-        <a className="navbar-brand" href="#home">
+        <Link to="/" className="navbar-brand">
           Examify
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

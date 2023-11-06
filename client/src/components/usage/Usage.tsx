@@ -6,7 +6,7 @@ const Usage: FC = () => {
   const [active, setActive] = useState("schools");
 
   return (
-    <section id="usage" className="section-usage py-5 container">
+    <section id="usage" className="section-usage py-5 container fs-3">
       <div className="row">
         <div className="col-md-12 d-flex justify-content-center">
           <h2 className="h2">One application many uses</h2>

@@ -1,6 +1,6 @@
 .footer {
   background-color: rgb(33, 40, 50);
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6) !important;
   font-size: 1.8rem;
 
   &__title {
@@ -8,9 +8,12 @@
     padding-right: 0;
   }
 
-  &__link:hover {
-    color: rgba(255, 255, 255, 0.86) !important;
-    scale: 1.1;
+  &__link {
+    color: inherit !important;
+    &:hover {
+      color: rgba(255, 255, 255, 0.86) !important;
+      scale: 1.1;
+    }
   }
 
   &__copyright {
