@@ -1,0 +1,11 @@
+.form {
+  border: 1px solid #dde1e6;
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.5);
+  padding: 6rem;
+  font-size: 1.6rem !important;
+
+  @media only screen and (max-width: 768px) {
+    min-height: 100vh;
+    width: 100%;
+  }
+}

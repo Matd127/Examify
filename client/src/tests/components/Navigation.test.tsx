@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
-import Navigation from "../../components/Navigation/Navigation";
+import Navigation from "../../components/navigation/Navigation";
 
 const navigation = (
   <BrowserRouter>

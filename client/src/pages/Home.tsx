@@ -1,12 +1,12 @@
 import { FC } from "react";
-import Hero from "../components/Hero/Hero";
-import AboutUs from "../components/Aboutus/AboutUs";
-import Storage from "../components/Storage/Storage";
-import Usage from "../components/Usage/Usage";
-import HowItWorks from "../components/HowItWorks/HowItWorks";
-import Methods from "../components/Methods/Methods";
-import Faq from "../components/Faq/Faq";
-import Start from "../components/Start/Start";
+import Hero from "../components/hero/Hero";
+import AboutUs from "../components/aboutus/AboutUs";
+import Storage from "../components/storage/Storage";
+import Usage from "../components/usage/Usage";
+import HowItWorks from "../components/howItWorks/HowItWorks";
+import Methods from "../components/methods/Methods";
+import Faq from "../components/faq/Faq";
+import Start from "../components/start/Start";
 
 const Home: FC = () => {
   return (

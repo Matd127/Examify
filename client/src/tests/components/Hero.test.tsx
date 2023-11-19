@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { useInView } from "react-intersection-observer";
-import Hero from "../../components/Hero/Hero";
+import Hero from "../../components/hero/Hero";
 
 jest.mock("react-intersection-observer");
 
@@ -9,6 +9,7 @@ describe("Hero Testing", () => {
     const fakeRef = {
       current: null,
     };
+
     // @ts-ignore
     useInView.mockImplementation(() => ({
       ref: fakeRef,
