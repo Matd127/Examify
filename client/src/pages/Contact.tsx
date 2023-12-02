@@ -1,6 +1,8 @@
-import React from "react";
-import ContactForm from "../components/contact/ContactForm";
+import React, { FC } from "react";
+import ContactForm from "../components/Contact/ContactForm";
 
-export default function Contact() {
+const Contact: FC = () => {
   return <ContactForm />;
-}
+};
+
+export default Contact;

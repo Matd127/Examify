@@ -1,0 +1,10 @@
+.rounded-icon {
+  background-color: rgba($color: #fff, $alpha: 0.2);
+  padding: 1.5rem;
+  border-radius: 50%;
+
+  svg {
+    width: 4rem;
+    height: 4rem;
+  }
+}

@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
-import ForgotPasswordForm from "../components/auth/ForgotPasswordForm";
-import LoginForm from "../components/auth/LoginForm";
-import RegisterForm from "../components/auth/RegisterForm";
+import ForgotPasswordForm from "../components/Auth/ForgotPasswordForm";
+import LoginForm from "../components/Auth/LoginForm";
+import RegisterForm from "../components/Auth/RegisterForm";
 
 const Auth: FC = () => {
   const [option, setOption] = useState("login");
