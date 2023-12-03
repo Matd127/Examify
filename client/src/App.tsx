@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import RootLayout from "./pages/Root";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Dashboard from "./pages/Dashboard";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
     path: "/auth",
     element: <Auth />,
   },
+  {
+    path: "/dashboard",
+    element: <Dashboard />
+  }
 ]);
 
 const App: FC = () => {

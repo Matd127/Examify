@@ -16,10 +16,10 @@ const Start: FC = () => {
             Sint, ab architecto! Fuga.
           </p>
           <div className="mt-5">
-            <button className="btn fs-2 p-3 btn-outline-primary">
+            <button className="btn  p-3 btn-outline-primary">
               Create account
             </button>
-            <button className="btn mx-3 p-3 fs-2 btn-outline-secondary">
+            <button className="btn mx-3 p-3  btn-outline-secondary">
               Find out more
             </button>
           </div>

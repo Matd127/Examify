@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Hero from "../components/hero/Hero";
+import Hero from "../components/Hero/Hero";
 import AboutUs from "../components/Aboutus/AboutUs";
 import Storage from "../components/Storage/Storage";
 import Usage from "../components/Usage/Usage";

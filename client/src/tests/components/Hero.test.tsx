@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { useInView } from "react-intersection-observer";
-import Hero from "../../components/hero/Hero";
+import Hero from "../../components/Hero/Hero";
 
 jest.mock("react-intersection-observer");
 

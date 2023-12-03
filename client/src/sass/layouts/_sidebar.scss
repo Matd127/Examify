@@ -1,0 +1,17 @@
+.sidebar {
+  font-size: 1.6rem;
+  color: #21272a;
+
+  &__nav {
+    width: 16rem;
+    border-radius: 0 !important;
+  }
+
+  a {
+    color: #21272a !important;
+
+    &:hover {
+      color: $color-primary !important;
+    }
+  }
+}

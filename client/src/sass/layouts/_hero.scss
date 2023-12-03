@@ -1,11 +1,7 @@
 .hero {
   position: relative;
-  background: rgb(35, 58, 175);
-  background: linear-gradient(
-    163deg,
-    rgba(35, 58, 175, 1) 29%,
-    rgba(132, 42, 199, 1) 85%
-  );
+  background: #0061f2;
+  background: linear-gradient(163deg, #0061f2 20%, #6900c7 70%);
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -16,17 +12,10 @@
     }
   }
 
-  &__title {
-    font-size: 3.8rem;
-  }
-
   &__text {
-    font-size: 1.8rem;
-    color: #ebe9e9;
-  }
-
-  &__button {
-    font-size: 1.8rem !important;
+    font-size: 1.9rem;
+    color: #ffffffb2;
+    line-height: 1.6;
   }
 
   .animated {

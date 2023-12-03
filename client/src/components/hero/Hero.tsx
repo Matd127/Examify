@@ -18,15 +18,15 @@ const Hero: FC = () => {
   return (
     <header className="hero" id="hero">
       <div
-        className="container h-100 d-flex text-light justify-content-around align-items-center py-5"
+        className="container h-100 d-flex text-light justify-content-around align-items-center py-6"
         ref={heroRef}
       >
         <div
           className={`row align-items-center py-5 ${animate ? "animated" : ""}`}
         >
           <div className="col-md-12 col-lg-6 px-5">
-            <h1 className="hero__title">Welcome to Examify!</h1>
-            <p className="py-3 text-align-left hero__text">
+            <h1 className="h1">Welcome to Examify!</h1>
+            <p className="py-5 text-align-left hero__text">
               Are you tired of traditional, time-consuming testing methods? Look
               no further! Examify is here to revolutionize your testing
               experience. Whether you're an educator, a trainer, or a business
@@ -34,7 +34,7 @@ const Hero: FC = () => {
               the entire process.
             </p>
             <p>
-              <button className="btn btn-success hero__button text-light px-5">
+              <button className="btn btn-success text-light px-5 py-2">
                 Get Started
               </button>
             </p>

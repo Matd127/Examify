@@ -6,12 +6,7 @@ interface IconProps {
 
 export const AboutIcon: FC<IconProps> = ({ icon }) => {
   return (
-    <svg
-      className="about-card__icon"
-      width="60"
-      height="60"
-      viewBox="0 0 60 60"
-    >
+    <svg width="60" height="60" viewBox="0 0 60 60" fontSize={60}>
       <defs>
         <linearGradient id="grad" x1="25%" y1="0%" x2="100%" y2="75%">
           <stop offset="09%" stopColor="rgba(35, 58, 175, 1)" />

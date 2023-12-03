@@ -1,20 +1,21 @@
 @import "./abstract/functions";
 @import "./abstract/mixins";
 @import "./abstract/variables";
+@import "./abstract/utilities";
 
 @import "./base/base";
 @import "./base/animations";
 @import "./base/typography";
 
-@import "./components/about-card";
 @import "./components/usage-card";
 @import "./components/methods-card";
 @import "./components/form";
-@import "./components/rounded.icon";
+@import "./components/rounded-icon";
 
 @import "./layouts/navigation";
 @import "./layouts/hero";
 @import "./layouts/footer";
+@import "./layouts/sidebar";
 
 @import "./pages/home";
 @import "./pages/auth";

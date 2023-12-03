@@ -7,11 +7,11 @@ import {
 
 const HowItWorks: FC = () => {
   return (
-    <section id="how-it-works" className="bg-light py-5">
+    <section id="how-it-works" className="bg-light py-6">
       <div className="container ">
         <div className="row py-5">
           <div className="col-md-3">
-            <h3 className="h3">How it works?</h3>
+            <h3 className="h3 mb-4">How it works?</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
               laboriosam provident odio similique quidem sint voluptatem
@@ -22,7 +22,7 @@ const HowItWorks: FC = () => {
             <div className="text-secondary py-3">
               <BsFill1CircleFill size={30} className="text-primary" />
             </div>
-            <h3>Creating Tests</h3>
+            <h3 className="h3 mb-4">Creating Tests</h3>
             <p>
               Teachers or administrators use the application to create tests by
               defining questions, their content, answers, and grading criteria,
@@ -33,7 +33,7 @@ const HowItWorks: FC = () => {
             <div className="text-secondary py-3">
               <BsFill2CircleFill size={30} className="text-primary" />
             </div>
-            <h3>Conducting Tests</h3>
+            <h3 className="h3 mb-4">Conducting Tests</h3>
             <p>
               Participants log into the application, select the appropriate
               test, solve it online, and the application records their answers
@@ -44,7 +44,7 @@ const HowItWorks: FC = () => {
             <div className="text-secondary py-3">
               <BsFill3CircleFill size={30} className="text-primary" />
             </div>
-            <h3>Analyzing Results and Reporting</h3>
+            <h3 className="h3 mb-4">Analyzing Results and Reporting</h3>
             <p>
               After the test is completed, the application automatically
               evaluates the answers, generates results accessible to

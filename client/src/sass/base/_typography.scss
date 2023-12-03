@@ -1,6 +1,20 @@
+.h1 {
+  font-size: $h1 !important;
+}
+
+.h2 {
+  font-size: $h2 !important;
+  color: #323f52;
+}
+
+.h3 {
+  font-size: $h3 !important;
+  color: #323f52;
+}
+
 p {
-  font-size: 1.8rem;
-  color: rgb(105, 112, 122);
+  font-size: $font-default;
+  color: $color-gray;
 }
 
 a {

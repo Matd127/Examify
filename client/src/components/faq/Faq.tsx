@@ -15,14 +15,16 @@ const Faq: FC = () => {
   };
 
   return (
-    <section className="faq bg-light py-5" id="faq">
+    <section className="faq bg-light py-6" id="faq">
       <div className="accordion container py-5" id="accordionExample">
         <h2 className="h2 text-center mb-5">Frequently Asked Questions</h2>
         {accordionItems.map((item) => (
           <div className="accordion-item" key={item.id}>
             <h2 className="accordion-header" id={`heading${item.id}`}>
               <button
-                className={`accordion-button py-4 ${item.isOpen ? "" : "collapsed"}`}
+                className={`accordion-button p-4 ${
+                  item.isOpen ? "" : "collapsed"
+                }`}
                 type="button"
                 onClick={() => toggleAccordionItem(item.id)}
                 aria-expanded={item.isOpen}
@@ -37,7 +39,6 @@ const Faq: FC = () => {
                 item.isOpen ? "show" : ""
               }`}
               aria-labelledby={`heading${item.id}`}
-              data-bs-parent="#accordionExample"
             >
               <div className="accordion-body py-4">{item.content}</div>
             </div>

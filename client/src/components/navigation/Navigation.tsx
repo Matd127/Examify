@@ -5,9 +5,9 @@ const Navigation: FC = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top py-3">
       <div className="container py-2 ">
-        <Link to="/" className="navbar-brand">
+        <Link to="/" className="navbar-brand text-dark">
           Examify
         </Link>
         <button

@@ -15,10 +15,10 @@ const Storage: FC = () => {
   }, [storageIsVisible, animate]);
 
   return (
-    <section id="storage" className="section-storage bg-light mt-3">
+    <section id="storage" className="section-storage bg-light mt-3 py-6">
       <div className="container w-75" ref={storageRef}>
         <div
-          className={`row section-storage--box py-5 ${
+          className={`row section-storage--box  ${
             animate ? "animated" : ""
           }`}
         >
@@ -30,10 +30,8 @@ const Storage: FC = () => {
             />
           </div>
           <div className="col-md-6 d-flex flex-column justify-content-center">
-            <h2 className="h2 py-2">
-              Your data is stored securely on our servers
-            </h2>
-            <p className="section-storage__info py-3">
+            <h2 className="h2">Your data is stored securely on our servers</h2>
+            <p className="py-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
               vero pariatur eos veniam laudantium qui placeat eius reprehenderit
               facilis. Fugiat eius accusamus esse animi, dolor repudiandae

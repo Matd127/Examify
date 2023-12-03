@@ -12,10 +12,12 @@ const UsageItems: FC<Institutions> = ({ name }) => {
         .find((uses) => uses.name === name)
         ?.uses.map((use) => (
           <div className="col-lg-4 col-md-6 mt-4" key={use.title}>
-            <div className="card usage-card my-2">
+            <div className="card usage-card p-5 my-2">
               <div className="card-body p-5">
                 {use?.icon}
-                <h5 className="usage-card__title pt-4">{use.title}</h5>
+                <h3 className="usage-card__title fw-bolder py-3">
+                  {use.title}
+                </h3>
                 <p className="usage-card__text py-2">{use.description}</p>
                 <a className="usage-card__link" href="/home">
                   Card Link
