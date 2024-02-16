@@ -3,7 +3,7 @@ import Sidebar from "../components/Sidebar/Sidebar";
 
 const Dashboard = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid dashboard">
       <div className="row flex-nowrap">
         <Sidebar />
         <DashboardPanel />

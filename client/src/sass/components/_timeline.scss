@@ -3,24 +3,31 @@
     display: flex;
     align-items: center;
     position: relative;
+
+    &:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: calc(50% + 0.5rem); /* Ustawiamy linię na połowie wysokości elementu .timeline-event */
+      left: 0.4rem; /* Ustawiamy linie w odległości 0.5rem od lewej krawędzi kropki */
+      height: calc(100% - 1rem); /* Wysokość linii będzie równa wysokości elementu .timeline-event minus wysokość kropki */
+      width: 2px; /* Szerokość linii */
+      background-color: #333; /* Kolor linii */
+      z-index: 1;
+    }
   }
 
   &-point {
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-    background-color: #333; 
-    margin-right: 1.5rem; 
-    z-index: 2; 
+    background-color: #333;
+    margin-right: 1.5rem;
+    z-index: 2;
   }
 
   &-info {
     flex: 1;
     z-index: 1;
-  }
-
-  p {
-    margin-bottom: 0 !important;
   }
 }
 
