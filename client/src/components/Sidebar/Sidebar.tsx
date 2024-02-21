@@ -10,9 +10,9 @@ import {
 const Sidebar = () => {
   return (
     <aside className="sidebar min-vh-100 col-auto p-5">
-      <h2 className="h2 text-center border-bottom pb-4">Examify</h2>
+      <h2 className="h2 fw-bolder text-center pb-4">Examify</h2>
 
-      <div className="sidebar__nav list-group py-4 border-bottom ">
+      <div className="sidebar__nav list-group py-4 ">
         <h3 className="h3 fw-bold mb-3">Core</h3>
         <div className="d-flex align-items-center">
           <BsGrid size={16} />
@@ -34,7 +34,7 @@ const Sidebar = () => {
         </div>
       </div>
 
-      <div className="sidebar__nav list-group py-4 border-bottom">
+      <div className="sidebar__nav list-group py-4">
         <h3 className="h3 fw-bold mb-3">Help</h3>
         <div className="d-flex align-items-center">
           <BsGear size={16} />

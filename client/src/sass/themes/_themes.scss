@@ -10,7 +10,6 @@ section.bg-light {
   background-color: $color-primary !important;
 }
 
-
 .navbar-brand {
   font-size: 2.2rem !important;
   color: rgb(33, 40, 50) !important;
@@ -38,4 +37,28 @@ section.bg-light {
   border-radius: 0 !important;
   border-bottom: 1px solid #c1c7cd !important;
   background-color: #f2f4f8 !important;
+}
+
+.table {
+  border-radius: 1rem !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+
+  td {
+    color: #4F7396 ;
+  }
+
+  td,
+  th,
+  tr {
+    margin: 0 !important;
+  }
+
+  tbody {
+    tr {
+      &:last-child {
+        border-bottom: 0px transparent;
+      }
+    }
+  }
 }

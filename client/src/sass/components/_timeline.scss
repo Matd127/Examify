@@ -5,13 +5,13 @@
     position: relative;
 
     &:not(:last-child)::after {
-      content: '';
+      content: "";
       position: absolute;
-      top: calc(50% + 0.5rem); /* Ustawiamy linię na połowie wysokości elementu .timeline-event */
-      left: 0.4rem; /* Ustawiamy linie w odległości 0.5rem od lewej krawędzi kropki */
-      height: calc(100% - 1rem); /* Wysokość linii będzie równa wysokości elementu .timeline-event minus wysokość kropki */
-      width: 2px; /* Szerokość linii */
-      background-color: #333; /* Kolor linii */
+      top: calc(50% + 0.5rem);
+      left: 0.4rem;
+      height: calc(100% - 1rem);
+      width: 2px;
+      background-color: #dadada;
       z-index: 1;
     }
   }

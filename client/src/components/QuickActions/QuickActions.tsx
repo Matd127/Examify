@@ -20,7 +20,7 @@ const QuickActions: FC = () => {
           </div>
         </div>
         <div>
-          <button className="btn btn-secondary rounded py-2 px-5">
+          <button className="btn btn-primary rounded py-2 px-5">
           Get Started
           </button>
         </div>
@@ -40,7 +40,7 @@ const QuickActions: FC = () => {
           </div>
         </div>
         <div>
-          <button className="btn btn-secondary rounded py-2 px-5">
+          <button className="btn btn-primary rounded py-2 px-5">
             Get Started
           </button>
         </div>
